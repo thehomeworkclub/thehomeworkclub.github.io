@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="homeworkclub">
+  <head>
+    <title>The Homework Club</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.9.0/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../homeworkclubtheme.css" />
+    <link rel="icon" href="media/profile_picture.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      .bg-bulb-gradient {
+        background: radial-gradient(
+          50% 50% at 50% 50%,
+          #bcb19e 0%,
+          rgba(86, 81, 72, 0) 100%
+        );
+      }
+      @keyframes separate-right {
+        0% {
+          transform: translateX(0);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(5vw);
+          opacity: 1;
+        }
+      }
+      .animate-separate-right {
+        animation: 2s ease-out 0s 1 separate-right;
+      }
+      @keyframes separate-left {
+        0% {
+          transform: translateX(0);
+          opacity: 0;
+        }
+        100% {
+          transform: translateX(-5vw);
+          opacity: 1;
+        }
+      }
+      .animate-separate-left {
+        animation: 2s ease-out 0s 1 separate-left;
+      }
+      @keyframes fade-in {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+      .animate-fade-in {
+        animation: 2s ease-out 0s 1 fade-in;
+      }
+      .anonymous-pro-regular {
+        font-family: "Anonymous Pro", monospace;
+        font-weight: 400;
+        font-style: normal;
+      }
+    </style>
+  </head>
+
+  <body class="w-screen h-screen bg-black flex flex-col items-center anonymous-pro-regular">
+    <header
+      class="w-full h-[7%] bg-black border-white border-b z-10 flex flex-col place-content-center"
+    >
+      <span class="text-3xl text-white px-5">The Homework Club</span>
+    </header>
+
+    <div class="flex flex-row relative top-[14%]">
+      <img
+        alt="H"
+        src="/media/H.png"
+        class="h-[22vh] -translate-x-[5vw] animate-separate-left"
+      />
+      <img
+        alt="W"
+        src="/media/W.png"
+        class="h-[22vh] animate-fade-in"
+      />
+      <img
+        alt="C"
+        src="/media/C.png"
+        class="h-[22vh] translate-x-[5vw] animate-separate-right"
+      />
+    </div>
+    <div
+      class="rounded-full w-[60%] h-[36%] bg-bulb-gradient relative bottom-[37%]"
+    ></div>
+
+
+    <div class="flex flex-col align-center text-white">
+      Site under construction. More information coming soon.
+    </div>
+
+
+    <footer
+      class="footer bg-black border-white border-t text-neutral-content p-10 absolute bottom-0"
+    >
+      <aside>
+        <img alt="logo" src="/media/logo.png" class="h-10" />
+        <p>
+          The Homework Club
+          <br />
+          Dedicated to <s>hacking you</s> helping you with your homework
+        </p>
+      </aside>
+      <nav>
+        <h6 class="footer-title">Social</h6>
+        <div class="grid grid-flow-col gap-4">
+          <a
+            href="https://mail.google.com/mail/u/0/?tf=cm&source=mailto&to=hello@homeworkclub.dev"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              aria-label="Gmail"
+              role="img"
+              viewBox="0 0 512.00 512.00"
+              width="32px"
+              height="32px"
+              fill="#000000"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <rect width="512" height="512" rx="15%" fill="#000000"></rect>
+                <path
+                  d="M158 391v-142l-82-63V361q0 30 30 30"
+                  fill="#4285f4"
+                ></path>
+                <path
+                  d="M 154 248l102 77l102-77v-98l-102 77l-102-77"
+                  fill="#ea4335"
+                ></path>
+                <path
+                  d="M354 391v-142l82-63V361q0 30-30 30"
+                  fill="#34a853"
+                ></path>
+                <path
+                  d="M76 188l82 63v-98l-30-23c-27-21-52 0-52 26"
+                  fill="#c5221f"
+                ></path>
+                <path
+                  d="M436 188l-82 63v-98l30-23c27-21 52 0 52 26"
+                  fill="#fbbc04"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <a href="https://www.instagram.com/hwcdev/">
+            <svg
+              width="32px"
+              height="32px"
+              viewBox="0 0 32 32"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <rect
+                  x="2"
+                  y="2"
+                  width="28"
+                  height="28"
+                  rx="6"
+                  fill="url(#paint0_radial_87_7153)"
+                ></rect>
+                <rect
+                  x="2"
+                  y="2"
+                  width="28"
+                  height="28"
+                  rx="6"
+                  fill="url(#paint1_radial_87_7153)"
+                ></rect>
+                <rect
+                  x="2"
+                  y="2"
+                  width="28"
+                  height="28"
+                  rx="6"
+                  fill="url(#paint2_radial_87_7153)"
+                ></rect>
+                <path
+                  d="M23 10.5C23 11.3284 22.3284 12 21.5 12C20.6716 12 20 11.3284 20 10.5C20 9.67157 20.6716 9 21.5 9C22.3284 9 23 9.67157 23 10.5Z"
+                  fill="white"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M16 21C18.7614 21 21 18.7614 21 16C21 13.2386 18.7614 11 16 11C13.2386 11 11 13.2386 11 16C11 18.7614 13.2386 21 16 21ZM16 19C17.6569 19 19 17.6569 19 16C19 14.3431 17.6569 13 16 13C14.3431 13 13 14.3431 13 16C13 17.6569 14.3431 19 16 19Z"
+                  fill="white"
+                ></path>
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M6 15.6C6 12.2397 6 10.5595 6.65396 9.27606C7.2292 8.14708 8.14708 7.2292 9.27606 6.65396C10.5595 6 12.2397 6 15.6 6H16.4C19.7603 6 21.4405 6 22.7239 6.65396C23.8529 7.2292 24.7708 8.14708 25.346 9.27606C26 10.5595 26 12.2397 26 15.6V16.4C26 19.7603 26 21.4405 25.346 22.7239C24.7708 23.8529 23.8529 24.7708 22.7239 25.346C21.4405 26 19.7603 26 16.4 26H15.6C12.2397 26 10.5595 26 9.27606 25.346C8.14708 24.7708 7.2292 23.8529 6.65396 22.7239C6 21.4405 6 19.7603 6 16.4V15.6ZM15.6 8H16.4C18.1132 8 19.2777 8.00156 20.1779 8.0751C21.0548 8.14674 21.5032 8.27659 21.816 8.43597C22.5686 8.81947 23.1805 9.43139 23.564 10.184C23.7234 10.4968 23.8533 10.9452 23.9249 11.8221C23.9984 12.7223 24 13.8868 24 15.6V16.4C24 18.1132 23.9984 19.2777 23.9249 20.1779C23.8533 21.0548 23.7234 21.5032 23.564 21.816C23.1805 22.5686 22.5686 23.1805 21.816 23.564C21.5032 23.7234 21.0548 23.8533 20.1779 23.9249C19.2777 23.9984 18.1132 24 16.4 24H15.6C13.8868 24 12.7223 23.9984 11.8221 23.9249C10.9452 23.8533 10.4968 23.7234 10.184 23.564C9.43139 23.1805 8.81947 22.5686 8.43597 21.816C8.27659 21.5032 8.14674 21.0548 8.0751 20.1779C8.00156 19.2777 8 18.1132 8 16.4V15.6C8 13.8868 8.00156 12.7223 8.0751 11.8221C8.14674 10.9452 8.27659 10.4968 8.43597 10.184C8.81947 9.43139 9.43139 8.81947 10.184 8.43597C10.4968 8.27659 10.9452 8.14674 11.8221 8.0751C12.7223 8.00156 13.8868 8 15.6 8Z"
+                  fill="white"
+                ></path>
+                <defs>
+                  <radialGradient
+                    id="paint0_radial_87_7153"
+                    cx="0"
+                    cy="0"
+                    r="1"
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(12 23) rotate(-55.3758) scale(25.5196)"
+                  >
+                    <stop stop-color="#B13589"></stop>
+                    <stop offset="0.79309" stop-color="#C62F94"></stop>
+                    <stop offset="1" stop-color="#8A3AC8"></stop>
+                  </radialGradient>
+                  <radialGradient
+                    id="paint1_radial_87_7153"
+                    cx="0"
+                    cy="0"
+                    r="1"
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(11 31) rotate(-65.1363) scale(22.5942)"
+                  >
+                    <stop stop-color="#E0E8B7"></stop>
+                    <stop offset="0.444662" stop-color="#FB8A2E"></stop>
+                    <stop offset="0.71474" stop-color="#E2425C"></stop>
+                    <stop
+                      offset="1"
+                      stop-color="#E2425C"
+                      stop-opacity="0"
+                    ></stop>
+                  </radialGradient>
+                  <radialGradient
+                    id="paint2_radial_87_7153"
+                    cx="0"
+                    cy="0"
+                    r="1"
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="translate(0.500002 3) rotate(-8.1301) scale(38.8909 8.31836)"
+                  >
+                    <stop offset="0.156701" stop-color="#406ADC"></stop>
+                    <stop offset="0.467799" stop-color="#6A45BE"></stop>
+                    <stop
+                      offset="1"
+                      stop-color="#6A45BE"
+                      stop-opacity="0"
+                    ></stop>
+                  </radialGradient>
+                </defs>
+              </g>
+            </svg>
+          </a>
+          <a href="https://github.com/thehomeworkclub">
+            <svg
+              fill="#ffffff"
+              width="32px"
+              height="32px"
+              viewBox="0 0 512 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <title>ionicons-v5_logos</title>
+                <path
+                  d="M256,32C132.3,32,32,134.9,32,261.7c0,101.5,64.2,187.5,153.2,217.9a17.56,17.56,0,0,0,3.8.4c8.3,0,11.5-6.1,11.5-11.4,0-5.5-.2-19.9-.3-39.1a102.4,102.4,0,0,1-22.6,2.7c-43.1,0-52.9-33.5-52.9-33.5-10.2-26.5-24.9-33.6-24.9-33.6-19.5-13.7-.1-14.1,1.4-14.1h.1c22.5,2,34.3,23.8,34.3,23.8,11.2,19.6,26.2,25.1,39.6,25.1a63,63,0,0,0,25.6-6c2-14.8,7.8-24.9,14.2-30.7-49.7-5.8-102-25.5-102-113.5,0-25.1,8.7-45.6,23-61.6-2.3-5.8-10-29.2,2.2-60.8a18.64,18.64,0,0,1,5-.5c8.1,0,26.4,3.1,56.6,24.1a208.21,208.21,0,0,1,112.2,0c30.2-21,48.5-24.1,56.6-24.1a18.64,18.64,0,0,1,5,.5c12.2,31.6,4.5,55,2.2,60.8,14.3,16.1,23,36.6,23,61.6,0,88.2-52.4,107.6-102.3,113.3,8,7.1,15.2,21.1,15.2,42.5,0,30.7-.3,55.5-.3,63,0,5.4,3.1,11.5,11.4,11.5a19.35,19.35,0,0,0,4-.4C415.9,449.2,480,363.1,480,261.7,480,134.9,379.7,32,256,32Z"
+                ></path>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </nav>
+    </footer>
+  </body>
+</html>
